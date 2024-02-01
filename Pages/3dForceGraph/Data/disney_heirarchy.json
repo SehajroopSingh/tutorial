@@ -1,0 +1,65 @@
+{
+    "nodes": [
+        {
+            "id": "CEO",
+            "name": "Bob Chapek",
+            "val": 20
+        },
+        {
+            "id": "ChairmanParks",
+            "name": "Josh D'Amaro",
+            "val": 15
+        },
+        {
+            "id": "ChairmanMedia",
+            "name": "Kareem Daniel",
+            "val": 15
+        },
+        {
+            "id": "CFO",
+            "name": "Christine M. McCarthy",
+            "val": 15
+        },
+        {
+            "id": "CCO",
+            "name": "Jennifer Lee",
+            "val": 10
+        },
+        {
+            "id": "PresidentStudios",
+            "name": "Alan Bergman",
+            "val": 10
+        },
+        {
+            "id": "PresidentESPN",
+            "name": "James Pitaro",
+            "val": 10
+        }
+    ],
+    "links": [
+        {
+            "source": "CEO",
+            "target": "ChairmanParks"
+        },
+        {
+            "source": "CEO",
+            "target": "ChairmanMedia"
+        },
+        {
+            "source": "CEO",
+            "target": "CFO"
+        },
+        {
+            "source": "CEO",
+            "target": "CCO"
+        },
+        {
+            "source": "CEO",
+            "target": "PresidentStudios"
+        },
+        {
+            "source": "CEO",
+            "target": "PresidentESPN"
+        }
+    ]
+}
