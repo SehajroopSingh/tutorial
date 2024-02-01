@@ -9,7 +9,7 @@
 
 document.addEventListener('DOMContentLoaded', function() {
     // Fetch the JSON data
-    fetch('../Data/disney_heirarchy.json')
+    fetch('./Data/disney_heirarchy.json')
       .then(response => response.json())
       .then(data => {
         console.log(data); // The JSON data is now available here
