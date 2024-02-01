@@ -1,5 +1,5 @@
 //const gData2 = require('./Data/disney_heirarchy.json');
-import * as THREE from 'https://unpkg.com/three@0.120.1/build/three.module.js'
+import * as THREE from 'three'
 
 
 
